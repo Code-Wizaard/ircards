@@ -1,0 +1,18 @@
+[project]
+name = "ircards"
+version = "1.4.2"
+authors = [
+    { name = "Aydin Rahbaran", email = "codewizaard9@gmail.com"}
+]
+description = "A Python package for checking card numbers validation and provider bank"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+license = { file = "LICENSE" }
+[project.urls]
+github = "https://github.com/CodeWizaard/ircards"
+website = "https://codewizaard.ir"
