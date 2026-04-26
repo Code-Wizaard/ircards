@@ -4,7 +4,7 @@ from .iban_utils import IbanValidator
 
 def main():
     if len(sys.argv) < 3:
-        print("Usage: python -m Banker.cli <type: card|iban> <value>")
+        print("Usage: python -m irCards.cli <type: card|iban> <value>")
         return
 
     ctype, val = sys.argv[1], sys.argv[2]
