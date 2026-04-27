@@ -1,5 +1,3 @@
-Here's a comprehensive `README.md` for your irCards package:
-
 ```markdown
 # irCards
 
@@ -164,7 +162,7 @@ The package includes BIN (Bank Identification Number) prefixes for all major Ira
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/irCards.git
+git clone https://github.com/code-wizaard/irCards.git
 cd irCards
 
 # Install in development mode
@@ -175,15 +173,9 @@ pip install build
 python -m build
 ```
 
-### Running Tests
-
-```bash
-python -m unittest discover tests
-```
-
 ## License
 
-[Add your license here - MIT, GPL, etc.]
+Licence is in the LICENCE file
 
 ## Contributing
 
@@ -191,7 +183,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Author
 
-[Your Name]
+2026 Copy right, Aydin Rahbran
 
 ## Version History
 
@@ -207,13 +199,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - Bank identification is based on known BIN prefixes and may not cover all banks
 - Always use masked versions when displaying card numbers or IBANs in UI/logs
 ```
-
-This README provides:
-- Clear installation instructions
-- Usage examples for both Python API and CLI
-- Complete API reference
-- Validation rules explanation
-- Security notes about masking
-- Development setup instructions
-
-You can customize it with your actual GitHub repository URL, license, version number, and author information.
