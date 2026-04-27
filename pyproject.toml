@@ -1,6 +1,6 @@
 [project]
 name = "ircards"
-version = "1.4.3"
+version = "1.4.4"
 authors = [
     { name = "Aydin Rahbaran", email = "codewizaard9@gmail.com"}
 ]
